@@ -1,0 +1,290 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #1e293b;
+}
+
+.payment-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f9fafb;
+}
+
+.payment-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 2rem;
+}
+
+.payment-section p {
+    font-size: 1.2rem;
+    color: #6b7280;
+    margin-bottom: 3rem;
+}
+
+.payment-cards {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    margin-top: 0;
+    position: relative;
+    padding: 0 1rem;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: left;
+    width: 300px;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 0;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card:nth-child(2) {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    margin-left: -30px;
+}
+
+.card:nth-child(3) {
+    z-index: 1;
+}
+
+.card-heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #800080;
+}
+
+.caption {
+    font-size: 1rem;
+    color: #6b7280;
+    text-align: right;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin: 1rem 0;
+}
+
+.card-body p {
+    font-size: 1rem;
+    color: #374151;
+    margin-bottom: 1rem;
+}
+
+.card-body ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-body ul li {
+    font-size: 0.9rem;
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+}
+
+.card-body .btn {
+    display: inline-block;
+    background-color: #800080;
+    color: #ffffff;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.card-body .btn:hover {
+    background-color: #6b007b;
+}
+
+.testimonials-section {
+    background-color: #f3f4f6;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.testimonials-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 2rem;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.testimonial-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: left;
+    width: 300px;
+}
+
+.testimonial-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    object-fit: cover;
+}
+
+.user-info h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin: 0;
+}
+
+.user-info p {
+    font-size: 0.9rem;
+    color: #6b7280;
+    margin: 0;
+}
+
+.testimonial-text {
+    font-size: 1rem;
+    color: #6b7280;
+    margin-top: 1rem;
+}
+
+.footer-section {
+    background-color: #800080;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #6b007b;
+    color: #ffffff;
+}
+
+.footer-content {
+    text-align: left;
+    max-width: 60%;
+}
+
+.footer-content h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+.footer-description {
+    font-size: 1rem;
+    margin-bottom: 0;
+    color: #e5e5e5;
+}
+
+.footer-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.footer-buttons .btn {
+    background-color: #800080;
+    color: #ffffff;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.footer-buttons .btn:hover {
+    background-color: #6b007b;
+}
+
+.footer-buttons .btn-secondary {
+    background-color: #6b7280;
+    color: #ffffff;
+}
+
+.footer-buttons .btn-secondary:hover {
+    background-color: #4b5563;
+}
+
+.faq-section {
+    background-color: #f9fafb;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.faq-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 2rem;
+}
+
+.faq-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.faq-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+}
+
+.faq-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+}
+
+.faq-card p {
+    font-size: 1rem;
+    color: #6b7280;
+    margin: 0;
+}
